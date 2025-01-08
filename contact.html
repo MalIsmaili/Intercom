@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Intercom Ceramica</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      color: #2e3a45;
+      animation: fadeInPage 2s;
+    }
+    @keyframes fadeInPage {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    nav {
+      background-color: #2e3a45;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      color: white;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #f2a900;
+    }
+    .contact-section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .contact-section h2 {
+      margin-bottom: 1rem;
+      color: #2e3a45;
+    }
+    .contact-details {
+      margin-top: 2rem;
+      line-height: 2;
+    }
+    .contact-details p {
+      color: #555;
+    }
+    form {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #f2a900;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    form button:hover {
+      background-color: #ffd65c;
+    }
+    footer {
+      background-color: #2e3a45;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Intercom </h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact-section">
+    <h2 class="animate__animated animate__fadeInDown">Contact Us</h2>
+    <p class="animate__animated animate__fadeInUp">Have any questions or need assistance? We'd love to hear from you!</p>
+
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-details">
+      <p><strong>Address:</strong> Rr. Qarkore Gjilan - Bujanoc</p>
+      <p><strong>Phone:</strong> +383 45 340 583</p>
+      <p><strong>Email:</strong> info@intercomceramica.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Intercom . All rights reserved.</p>
+  </footer>
+</body>
+</html>
